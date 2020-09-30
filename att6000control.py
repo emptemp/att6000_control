@@ -16,7 +16,7 @@ class att6000:
   # write decibel to att6000 after sanity checks
   # the "ATT.exe" only allows values < 32dB in 0.25dB steps
   def set(self, db):
-    if(round(abs(db)*4)/4 > 32):
+    if(abs(db) > 32):
       if self.dbg_print:
         print("FAIL", db)
       return
