@@ -5,5 +5,5 @@ https://www.banggood.com/6G-Digital-Programmable-Attenuator-30DB-Step-0_25DB-OLE
 
 HOW-TO
 - clone rep 
-( - install pySerial ) 
+- ( install pySerial ) 
 - run "python att6000.py"
